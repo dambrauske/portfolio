@@ -19,14 +19,14 @@ const ProjectCard = ({project}: { project: Project }) => {
                     </div>
                     <div className="flex gap-4">
                             {project.frontLink &&
-                                    <a href={project.frontLink} target="_blank" className="border-2 py-1 px-2 text-teal-300 rounded-full hover:bg-teal-300 hover:text-zinc-900 duration-200 flex justify-center items-center gap-1">
+                                    <a href={project.frontLink} target="_blank" className="border-2 py-1 px-2 text-teal-400 rounded-full hover:bg-teal-300 hover:text-zinc-900 duration-200 flex justify-center items-center gap-1">
                                         <div className="text-sm">Frontend Code</div>
                                         <i className="fab fa-github"></i>
                                     </a>
                             }
                         {project.backLink &&
 
-                            <a href={project.backLink} target="_blank" className="border-2 py-1 px-2 text-teal-300 rounded-full hover:bg-teal-300 hover:text-zinc-900 duration-200 flex justify-center items-center gap-1">
+                            <a href={project.backLink} target="_blank" className="border-2 py-1 px-2 text-teal-400 rounded-full hover:bg-teal-300 hover:text-zinc-900 duration-200 flex justify-center items-center gap-1">
                             <div className="text-sm">Backend Code</div>
                             <i className="fab fa-github"></i>
                         </a>
