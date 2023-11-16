@@ -2,7 +2,7 @@ const AboutSection = () => {
     return (
         <section id="about" className="bg-zinc-900 h-screen py-12 flex flex-col gap-12 items-center ">
             <h2 className="text-8xl font-bold text-center text-zinc-300 opacity-5 pt-12">About me</h2>
-            <div className="w-1/2 flex flex-col gap-2 justify-center items-center text-zinc-300 tracking-wide">
+            <div className="md:w-1/2 p-2 flex flex-col gap-2 justify-center text-zinc-300 tracking-wide">
                 <div>
                     I am a motivated and hardworking individual with a strong passion to become an accomplished
                     developer.

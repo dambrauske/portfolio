@@ -9,13 +9,14 @@ import ContactSection from "./pages/ContactSection.tsx";
 function App() {
 
     return (
-        <div>
+        <div className="bg-zinc-900">
             <Navbar/>
             <HomeSection/>
             <AboutSection/>
             <ProjectsSection/>
             <SkillsSection/>
             <ContactSection/>
+            <footer className="bg-zinc-900 text-zinc-600 text-sm text-center p-2">© 2023 Ugnė Dambrauskė</footer>
         </div>
     )
 }
