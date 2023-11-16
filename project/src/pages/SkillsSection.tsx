@@ -34,7 +34,7 @@ const SkillsSection = () => {
         },
         {
             image: react,
-            name: "React"
+            name: "React.js"
         },
         {
             image: redux,
@@ -42,22 +42,22 @@ const SkillsSection = () => {
         },
         {
             image: tailwind,
-            name: "Tailwind"
+            name: "Tailwind CSS"
         },
         {
             image: node,
-            name: "Node"
+            name: "Node.js"
         },
         {
             image: mongo,
-            name: "Mongo DB"
+            name: "MongoDB"
         }
     ]
 
     return (
         <section id="technologies" className="bg-zinc-900 min-h-screen py-12 flex flex-col items-center">
-            <h2 className="text-8xl font-bold text-center text-zinc-300 opacity-5 py-12">Skills</h2>
-            <h1 className="text-zinc-300">I have experience working with these technologies:</h1>
+            <h2 className="text-6xl md:text-8xl font-bold text-center text-zinc-300 opacity-5 py-12">Skills</h2>
+            <h1 className="text-zinc-300 tracking-wider">I have experience working with these technologies:</h1>
             <div className="flex flex-wrap mt-14 gap-8 justify-center mx-20">
                 {technologies.map((technology, i) => (
                     <div className="flex flex-col items-center justify-center gap-2 w-40"

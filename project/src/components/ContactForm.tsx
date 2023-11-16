@@ -4,17 +4,14 @@ const ContactForm = () => {
 
     const [state, handleSubmit] = useForm("xzblqvzp");
     if (state.succeeded) {
-        return <p>Thanks for your email!</p>;
+        return <p className="text-zinc-400 tracking-wider text-lg">Thanks for your email!</p>;
     }
 
     return (
 
         <form
-            className="flex flex-col border p-4 rounded-lg w-96 h-80 gap-2 justify-around"
+            className="flex flex-col p-4 rounded-lg w-96 h-80 gap-2 justify-around"
             onSubmit={handleSubmit}>
-            {/*<label htmlFor="email">*/}
-            {/*    Email Address*/}
-            {/*</label>*/}
             <input
                 id="email"
                 type="email"
@@ -43,7 +40,7 @@ const ContactForm = () => {
                 errors={state.errors}
             />
             <button
-                className="border-2 text-teal-400 rounded-full h-10 px-4 hover:bg-teal-300 hover:text-zinc-900 duration-200"
+                className="border-2 border-zinc-400 text-teal-400 rounded-full h-10 px-4 hover:bg-teal-300 hover:text-zinc-900 duration-200"
                 type="submit" disabled={state.submitting}>
                 Send
             </button>
