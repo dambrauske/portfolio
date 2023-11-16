@@ -56,7 +56,7 @@ const ProjectsSection = () => {
 
     return (
         <section id="projects" className="bg-zinc-900 min-h-screen py-12 flex flex-col items-center">
-            <h2 className="text-6xl md:text-8xl font-bold text-center text-zinc-300 opacity-5 py-12">Projects</h2>
+            <h2 className="text-6xl md:text-8xl font-bold text-center text-zinc-300 opacity-10 py-12">Projects</h2>
             <div className="flex flex-col gap-8 items-center">
                 {
                     projects.map((project, i) => (
