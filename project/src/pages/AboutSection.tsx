@@ -8,11 +8,15 @@ const AboutSection = () => {
                     developer.
                 </div>
                 <div>
-                    Recently, I successfully completed an intensive 1060-hour TypeScript course at Code Academy, which was
-                    the start of my journey into the fascinating world of coding.
-                </div> <div>
-                    Currently, I am seeking an entry-level position or internship where I can apply my skills and continue
-                    to learn and grow in my development journey.
+                    Currently, I am in the process of transitioning my career to frontend development.
+                </div>
+                <div>
+                    Recently, I successfully completed an intensive 1060-hour TypeScript course at Code Academy, which
+                    was the start of my journey into the fascinating world of coding.
+                </div>
+                <div>
+                    I enjoy learning new things and I am eager to gain hands-on experience by working on real projects
+                    within a team environment.
                 </div>
             </div>
 
