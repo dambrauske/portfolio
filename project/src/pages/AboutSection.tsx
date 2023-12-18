@@ -8,11 +8,17 @@ const AboutSection = () => {
                     developer.
                 </div>
                 <div>
-                    Currently, I am in the process of transitioning my career to frontend development.
+                Currently, I am in the process of transitioning my career to web development, as I found the passion in creating
+                applications and learning new things everyday.
                 </div>
+                
                 <div>
                     Recently, I successfully completed an intensive 1060-hour TypeScript course at Code Academy, which
                     was the start of my journey into the fascinating world of coding.
+                </div>
+                <div>
+                I am continually striving to acquire new knowledge and improve
+                my skills through learning the programming concepts and creating personal projects.
                 </div>
                 <div>
                     I enjoy learning new things and I am eager to gain hands-on experience by working on real projects
