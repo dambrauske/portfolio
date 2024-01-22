@@ -9,6 +9,8 @@ import shoppingCart from "../assets/shopping-page-cart.png"
 import shoppingItem from "../assets/shopping-page-single-item.png"
 import monopolyBoard from "../assets/monopoly-board.png"
 import monopolyStart from "../assets/monopoly-start.png"
+import cssHtml from "../assets/css-html.png"
+
 export interface Project {
     title: string,
     images: string[],
@@ -48,6 +50,14 @@ const ProjectsSection = () => {
             images: [monopolyBoard, monopolyStart],
             title: "Monopoly-like game",
             description: "A Monopoly-like game where users select a game piece, roll dice, and navigate through the board. Players have the opportunity to purchase streets and later sell them for half the original price.",
+            technologies: ["React", "JavaScript", "Tailwind", "Redux"],
+            frontLink: "https://github.com/dambrauske/react-assignment",
+            backLink: null,
+        },
+        {
+            images: [cssHtml],
+            title: "Website clone",
+            description: "A website clone made for HTML and CSS assignment at Code Academy. SCSS is used for styling",
             technologies: ["React", "JavaScript", "Tailwind", "Redux"],
             frontLink: "https://github.com/dambrauske/react-assignment",
             backLink: null,
