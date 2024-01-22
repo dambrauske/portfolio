@@ -59,7 +59,7 @@ const ProjectsSection = () => {
             title: "Website clone",
             description: "A website clone made for HTML and CSS assignment at Code Academy. SCSS is used for styling",
             technologies: ["HTML", "SCSS"],
-            frontLink: "https://https://github.com/dambrauske/html-css-assignment",
+            frontLink: "https://github.com/dambrauske/html-css-assignment",
             backLink: null,
         },
     ]
