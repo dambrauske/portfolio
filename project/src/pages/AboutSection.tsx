@@ -20,12 +20,12 @@ const AboutSection = () => {
 
         <div>
           I completed an intensive 1060-hour TypeScript course at Code
-          Academy, which was the start of my journey into the fascinating world
+          Academy in Lithuania, which was the start of my journey into the fascinating world
           of coding.
         </div>
         <div>
           Also, I participated in Swedbank IT
-          adacemy, where I gained knowledge about the fundamentals of Java
+          academy, where I gained knowledge about the fundamentals of Java
           programming language Angular framework for JavaScript.
         </div>
         <div>
