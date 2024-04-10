@@ -50,15 +50,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
                 <i className="fab fa-github"></i>
               </a>
             )}
-            {project.live && (
-              <a
-                href={project.live}
-                target="_blank"
-                className="border-2 py-1 px-2 text-teal-400 rounded-full hover:bg-teal-300 hover:text-zinc-900 duration-200 flex justify-center items-center gap-1"
-              >
-                <div className="text-sm">Live</div>
-              </a>
-            )}
+          
           </div>
         </div>
       </div>
