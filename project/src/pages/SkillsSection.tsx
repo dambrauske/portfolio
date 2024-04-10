@@ -7,6 +7,8 @@ import redux from "../assets/redux-logo.png"
 import tailwind from "../assets/tailwind.png"
 import node from "../assets/node.png"
 import mongo from "../assets/mongo.png"
+import angular from "../assets/angular.png"
+import java from "../assets/java.png"
 
 const SkillsSection = () => {
 
@@ -39,6 +41,14 @@ const SkillsSection = () => {
         {
             image: redux,
             name: "Redux"
+        },
+        {
+            image: angular,
+            name: "Angular"
+        },
+        {
+            image: java,
+            name: "Java"
         },
         {
             image: tailwind,
